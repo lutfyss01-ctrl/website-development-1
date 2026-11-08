@@ -1,0 +1,154 @@
+h1 {
+    color: #014D4E;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+h2 {
+    color: #014D4E;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    color: #014D4E;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    color: #004d4E;
+    background-color: #e0d6c6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    color: #004d4E;
+    font-size: 20px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e0d6c6;
+    background-image: url("../images/beach.jpg");
+    background-repeat: no-repeat;
+    background-size:auto ;
+    background-position: center;
+} 
+main {
+    background-color: #e0d6c6;
+    padding: 15px;
+    max-width: 900px;
+    margin: 15px auto;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#367e8e;
+    padding: 10px;
+}
+nav a {
+    flex-grow: 1;
+    text-align: center;
+
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color:#38003c; 
+    color:#FFFFFF
+}
+th, td{
+    border: 1px solid;
+    padding:10px 12px;
+    text-align: left;
+}
+caption {
+    font-style: italic;
+    padding: 5px;
+    color: #1c93c2;
+}
+thead{
+    background-color: #e90052;
+    color: #FFFFFF
+}
+tbody tr:nth-of-type(odd){
+    background-color: #38003c;
+}
+tbody tr:nth-of-type(even){
+    background-color: #4a1a52;
+}
+tbody tr:hover {
+    background-color:  #e90052;
+    color:#FFFFFF;
+}
+figure {
+  border: 2px solid #a96a95;
+  padding: 5px;
+  background-color: #FFFFFF;
+  max-width: 400px;
+  margin: 20px auto;
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+blockquote {
+    color: #d86b3c;
+    border-left: 5px solid #004d4E;
+    padding-left: 15px;
+}
+ul {
+    color: #1c93c2;
+  list-style-type: square;
+}
+
+ol {
+  color: #1c93c2;
+}
+
+a:link {
+    color: #d88a24; 
+}
+
+a:visited {
+    color: #a47043; 
+}
+a:hover {
+    color: #d6d632;
+    background-color: rgb(153, 153, 163);
+    text-decoration: none;
+}
+
+a:active{
+    color: #aec8af;
+}
+nav a:link {
+    color: #FFFFFF;
+}
+nav a:visited{
+    color: #d9eef0;
+}
+.disclaimer {
+    color: #e90052;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    border: 2px solid #cee900;
+}
+#league-table {
+    margin: auto;
+    width: auto;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
